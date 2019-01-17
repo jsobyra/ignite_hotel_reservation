@@ -25,27 +25,19 @@
             </list>
         </property>
 
-        <!-- Explicitly configure TCP discovery SPI to provide list of initial nodes. -->
         <property name="discoverySpi">
             <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi">
                 <property name="ipFinder">
-                    <!--
-                        Ignite provides several options for automatic discovery that can be used
-                        instead os static IP based discovery. For information on all options refer
-                        to our documentation: http://apacheignite.readme.io/docs/cluster-config
-                    -->
-                    <!-- Uncomment static IP finder to enable static-based discovery of initial nodes. -->
-                    <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.vm.TcpDiscoveryVmIpFinder">
-                        <!--<bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.multicast.TcpDiscoveryMulticastIpFinder">-->
-                        <property name="addresses">
-                            <list>
-                                <value>3.83.252.207</value>
-                                <value>172.18.22.192</value>
-                            </list>
-                        </property>
+                    <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.s3.TcpDiscoveryS3IpFinder">
+                        <property name="awsCredentials" ref="aws.creds"/>
+                        <property name="bucketName" value="jsobyra-ignite"/>
                     </bean>
                 </property>
             </bean>
         </property>
+    </bean>
+    <bean id="aws.creds" class="com.amazonaws.auth.BasicAWSCredentials">
+        <constructor-arg value="AKIAJB74FM6VQIPTZW5Q" />
+        <constructor-arg value="cUCf3Aqe3xlj8FbS6JQXQmUu44ohbuiO4fUw5M1J" />
     </bean>
 </beans>

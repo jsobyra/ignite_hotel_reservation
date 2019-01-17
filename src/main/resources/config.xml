@@ -37,8 +37,8 @@
                     <!--<bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.multicast.TcpDiscoveryMulticastIpFinder">-->
                         <property name="addresses">
                             <list>
-                                <value>3.83.252.207</value>
-                                <value>87.245.249.0</value>
+                                <value></value>
+                                <value></value>
                             </list>
                         </property>
                     </bean>
