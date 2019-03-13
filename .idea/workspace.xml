@@ -2,78 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc0da29-64b0-4363-a32c-34715429d63a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hotel/dto/Criteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hotel/dto/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hotel/dto/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hotel/dto/ReservationKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hotel/dto/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hotel/tasks/DataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hotel/tasks/HotelSearcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hotel/tasks/ReservationMaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IgniteTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BigObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CacheGetPartitioned.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CacheGetReplicated.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CachePutPartitioned.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CachePutReplicated.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DistributedJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task4/MyException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task4/Start.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task4/Task4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task5/Populate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task5/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hotel/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task5/Task5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task6/Start.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task6/Task4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task7/Start.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task7/Task4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/IgniteTest-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/IgniteTest-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BigObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CacheGetPartitioned.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CacheGetReplicated.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CachePutPartitioned.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CachePutReplicated.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DistributedJob$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DistributedJob$CountKeys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DistributedJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Task3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Task3$ApplyCountKeys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Task3$CallCountKeys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Task3$RunCountKeys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Task3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task4/MyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task4/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task4/Task4$SumInteger$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task4/Task4$SumInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task4/Task4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task5/Populate$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task5/Populate$PopulateNodes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task5/Populate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task5/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task5/Task5$FilterPrice$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task5/Task5$FilterPrice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task5/Task5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task6/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task6/Task4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task6/Task4$CreateAtomic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task6/Task4$IncrementAtomic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task6/Task4$Locker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task6/Task4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task7/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task7/Task4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task7/Task4$Task1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task7/Task4$Task2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task7/Task4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,6 +26,7 @@
         <counts>
           <entry key="MF" value="1" />
           <entry key="class" value="5" />
+          <entry key="gitignore" value="1" />
           <entry key="java" value="55" />
           <entry key="properties" value="1" />
           <entry key="xml" value="4" />
@@ -107,12 +37,14 @@
           <entry key="CLASS" value="5" />
           <entry key="JAVA" value="55" />
           <entry key="Manifest" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="13" />
           <entry key="java" value="5274" />
           <entry key="xml" value="80" />
         </counts>
@@ -120,6 +52,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="5274" />
+          <entry key="PLAIN_TEXT" value="13" />
           <entry key="XML" value="80" />
         </counts>
       </usages-collector>
@@ -157,25 +90,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-212">
+            <state relative-caret-position="48">
               <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hotel/dto/Criteria.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1241#1242#0" expanded="true" />
-                <element signature="e#1269#1270#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -292,7 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/task7/Task4.java" />
         <option value="$PROJECT_DIR$/src/main/java/ignite/Task4.java" />
         <option value="$PROJECT_DIR$/src/main/java/ignite/Start.java" />
         <option value="$PROJECT_DIR$/src/main/java/ignite/Ignite.java" />
@@ -343,6 +270,7 @@
         <option value="$PROJECT_DIR$/src/main/java/hotel/tasks/HotelSearcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/hotel/tasks/ReservationMaker.java" />
         <option value="$PROJECT_DIR$/src/main/java/hotel/dto/Reservation.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -450,7 +378,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552466632011" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552466885717" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
   <component name="RecentsManager">
@@ -585,9 +513,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1396" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26809454" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26809454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -596,12 +523,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298153" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3312102" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3312102" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40897098" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298153" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32866243" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.30955413" />
@@ -677,7 +604,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ignite/IgniteFactory.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.7.0/ignite-core-2.7.0.jar!/org/apache/ignite/Ignite.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -998,8 +924,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-212">
+        <state relative-caret-position="48">
           <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
